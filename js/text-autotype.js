@@ -1,15 +1,13 @@
 var i = 1;
 var j= -1;
-var list = ['iOS Developer.Web Developer.UI/UX Designer.Learner'];
+var list = ['Programmer.iOS Developer.Web Developer.UI/UX Designer.Learner'];
 var a=list[0];
 var len = list.length;
 var num = 0;
 
 function txt(){
 	var strs = a.slice(0,i);
-
 	$("#textdisp").html(strs +'|');
-
 	if(i >= 0)
 	{
 		if (i != a.length)
@@ -18,7 +16,8 @@ function txt(){
 			}
 		else
 			{
-				i = -1;}
+				i = -1;
+			}
 	}
 	else
 	{
@@ -32,13 +31,10 @@ function txt(){
 				var flag = ret_index(a);
 				a = list[flag];
 			}
-
-
 	}
-
-
-
 }
+
+
 function ret_index(a){
 	var index = list.indexOf(a);
 	if (index!= (len-1))
