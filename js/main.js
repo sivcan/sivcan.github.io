@@ -1,5 +1,5 @@
 /* ---- particles.js config ---- */
-s =3;
+s = 3;
 particlesJS("particles-js", {
   "particles": {
     "number": {
@@ -10,16 +10,16 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": "#32CD32"
+      "value": "#FFFFFF"
     },
     "shape": {
       "type": "circle",
       "stroke": {
-        "width": 0,
-        "color": "#000000"
+        "width": 1,
+        "color": "#ade6e6"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 8
       },
       "image": {
         "src": "img/github.svg",

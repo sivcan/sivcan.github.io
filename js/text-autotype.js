@@ -1,11 +1,11 @@
 var i = 1;
 var j= -1;
-var list = ['Programmer.iOS Developer.Web Developer.UI/UX Designer.Learner'];
-var a=list[0];
+var list = ['UI/UX Developer | Full Stack Web Developer | Programmer | iOS Developer'];
+var a = list[0];
 var len = list.length;
 var num = 0;
 
-function txt(){
+function txt() {
 	var strs = a.slice(0,i);
 	$("#textdisp").html(strs +'|');
 	if(i >= 0)
@@ -35,14 +35,17 @@ function txt(){
 }
 
 
-function ret_index(a){
+function ret_index(a) {
 	var index = list.indexOf(a);
 	if (index!= (len-1))
-		{return (index+1);}
+		{
+			return (index+1);
+		}
 	else
-		{return 0;}
-
+		{
+			return 0;
+		}
 }
 
 
-setInterval(txt,170);
+setInterval(txt,120);
